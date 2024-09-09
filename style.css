@@ -1,7 +1,27 @@
-h1 {
-	color: green;
-}
- 
-p {
-	text-align: center;
+@media {
+	header, footer{
+		color:saddlebrown;
+		display: block;
+		text-align: center;
+	  	border: 50px ; 
+	    margin: 50px ;
+	    background-color: lightgray;
+	    border-radius: 15px;
+	   
+	}
+
+	img {
+	    border-radius: 15px; 
+	    display: block;
+	    margin: 20px auto;
+	    height: 300px;
+	    width: auto; 
+	    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+	}
+
+	p {
+		display: block;
+		text-align: center;
+		color:saddlebrown
+	}
 }
